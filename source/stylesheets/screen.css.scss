@@ -24,6 +24,15 @@ under the License.
 // GENERAL STUFF
 ////////////////////////////////////////////////////////////////////////////////
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 300;
+}
+
 html, body {
   color: $main-text;
   padding: 0;
@@ -76,6 +85,7 @@ html, body {
     display: block;
     max-width: 100%;
     margin-bottom: $logo-margin;
+    margin: 40px;
   }
 
   &>.search {
